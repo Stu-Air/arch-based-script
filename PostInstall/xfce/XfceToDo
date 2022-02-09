@@ -1,0 +1,24 @@
+﻿download themes 
+remove all panels and create panels 
+download plank (setup of each desktop layout)
+open windows in centres 
+
+
+Powermanager 
+
+when lid is closed – suspend
+blank screen after - 5 mins
+switchoff after – never
+on inactivity reduce to 10% 
+automatically lock the session – when the screensaver is active 
+no locking after screenlocks - Power menu
+whisker config 
+plank config
+
+POWER 
+KEYBOARD setkxbmap gb #(changes system keboard)
+PLANK 
+FONTS
+TERMINAL FONT 
+THUNR AUTOMOUNT (gvfs)
+

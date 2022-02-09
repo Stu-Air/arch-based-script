@@ -1,0 +1,308 @@
+KDE things
+
+
+
+kvantummanager --set ArcDarker
+
+
+# ---- Extras ---- #
+https://github.com/psifidotos/applet-window-appmenu
+https://github.com/psifidotos/applet-window-title/
+
+
+
+# ----- System config ----- #
+
+panel plank 
+
+
+
+
+
+remove show desktop from system icon tray
+remove wastebin from system icon tray
+remove clip board from system icon tray (maybe)
+change launcher icon
+
+
+DESKTOP
+
+
+
+[Containments][19][General]
+popups=false                 remove folder preview popups
+previews=false               remove preview thumbnails
+
+remove "allow apps to remember the positions of their own windows"
+Add wastebin widget to desktop
+
+
+Dolphin
+
+[General]
+ShowSelectionToggle=false    remove show selection marker
+open dolphin in new windows all the time
+
+
+open new windows eveytime
+echo kate -n | ~/.kde/share/applnk/katenew.desktop
+
+
+make time and date 12 hour
+
+
+
+Applications to install
+kate (text editor) MAYBE Visual studio code
+
+Ktorrent
+Elisa (media player)
+kdenlive
+kolf (golf game)
+digikam (photo managment)
+karbon (graphics editor)
+
+
+Hide
+    echo "NoDisplay=true" | sudo tee -a /usr/share/applications/qv4l2.desktop
+    echo "NoDisplay=true" | sudo tee -a /usr/share/applications/qvidcap.desktop
+    echo "NoDisplay=true" | sudo tee -a /usr/share/applications/UserFeedbackConsole.desktop
+    echo "NoDisplay=true" | sudo tee -a /usr/share/applications/org.kde.plasma.emojier.destop
+
+#    echo "NoDisplay=true" | sudo tee -a /usr/share/applications/org.kde.kinfocenter.desktop
+
+
+
+avahi-discover.desktop
+bssh.desktop
+bcnc.desktop
+lstopo.desktop
+
+add below to after duckie tv is installed
+sudo chmod a+x /usr/bin/DuckieTV
+sudo chmod a+x /opt/DuckieTV/DuckieTV-bin
+
+powerline k10 MesloLGS NF regular  download and set berfore running zsh terminal
+back up .zshrc file and .pk10.zsh
+look at the zsh autocomplete and theme
+
+kate -n to open new windows every time
+
+
+enable tap to click
+double click folders
+touchpad natural scroll
+
+install tlp and enable it
+install discord from repo's (ARCH)
+
+
+
+Applications to remove
+    Appimage launcher
+    konversation
+    avahi
+    filelight
+    firefox
+    lstopo
+    hp device
+    hp uiscan
+    k3b
+    klog
+    kwallet
+    manjaro hello
+    manjaro userguide
+    qtorrent
+    qt assitdent
+    qt designer
+    qt lingist
+    qt qdbusviewer
+    qt vl42 test utility
+    qt vl42 video capture utility
+    skanlite
+    software token
+    software token (small)
+    spectacle
+    steam
+    userfeedback console
+    vlc
+    yakuake (dropdown terminal)
+    kdeconnect
+
+Applications to hide
+
+
+
+KDE config file paths
+Panel
+.config/plasma-org.kde.plasma.desktop-appletsrc
+
+Appearance
+Global Theme
+.config/kdeglobals
+.config/kscreenlockerrc
+.config/kwinrc
+.config/gtkrc
+.config/gtkrc-2.0
+.config/gtk-4.0/*
+.config/gtk-3.0/*
+.config/ksplashrc
+
+Application Style
+.config/kdeglobals
+
+Plasma Style
+.config/plasmarc
+
+Colors
+.config/kdeglobals
+.config/Trolltech.conf
+
+Window decorations
+.config/breezerc (or your theme name)
+.config/kwinrc
+
+Fonts
+.config/kdeglobals
+.config/kcmfonts
+
+Icons
+.config/kdeglobals [Icons]
+
+Cursors
+.config/kcminputrc
+
+Font management
+.config/kfontinstuirc
+
+Splash screen
+.config/ksplashrc
+
+Workspace
+
+Desktop behavior
+General behavior
+.config/plasmarc
+
+Screen Edges
+.config/kwinrc
+
+Desktop Effects
+.config/kwinrc
+.config/kglobalshortcutsrc
+
+Touch screen
+Virtual desktops
+Activities
+Window Management
+
+Window behavior
+.config/kwinrc
+
+Window Rules
+.config/kwinrulesrc
+Task switcher
+KWin scripts
+Shortcuts
+
+Custom Shortcuts
+.config/khotkeys
+
+Global Shortcuts
+.config/kglobalshortcutsrc
+
+Startup and Shutdown
+Login screen
+Autostart
+
+Background Services
+.config/kded5rc
+
+Desktop Session
+.config/ksmserverrc
+Search
+
+KRunner
+.config/krunnerrc
+
+File Search
+.config/baloofilerc
+Web Search Keywords
+Personalization
+
+Notifications
+.config/plasmanotifyrc
+
+Users
+Regional Settings
+Language
+
+Formats
+.config/plasma-localerc
+Spell Check
+
+Date & Time
+.config/ktimezonedrc
+
+Accessibility
+.config/kaccessrc
+
+Applications
+File associations
+Locations
+Launch Feedback
+
+Default Applications
+.config/kdeglobals
+
+KDE Wallet
+Online Accounts
+
+User Feedback
+.config/PlasmaUserFeedback
+Network
+Connections
+/etc/NetworkManager/system-connections
+Settings
+Proxy
+Connection Preferences
+SSL Preferences
+Cache
+Cookies
+Browser Identification
+Windows Shares
+Hardware
+Input Devices
+Keyboard
+Hardware
+.config/kcminputrc
+layout
+.config/kxkbrc
+Advanced
+.config/kxkbrc
+Mouse
+Game Constroller
+Touchpad
+Display and Monitor
+Compositor
+Gamma
+.config/kgammarc
+Night Color
+Audio
+Power Management
+Energy Saving
+.config/powermanagementprofilesrc
+Bluetooth
+.config/bluedevilglobalrc
+KDE Connect
+.config/kdeconnect
+Removable Storage
+.config/device_automounter_kcmrc
+.config/kded5rc
+.config/kded_device_automounterrc
+
+
+
+
+TO GET PARENT DISTRO NAME
+. /etc/os-release; echo "$ID_LIKE"
